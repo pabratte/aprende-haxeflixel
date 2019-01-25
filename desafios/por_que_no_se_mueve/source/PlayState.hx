@@ -11,11 +11,12 @@ class PlayState extends FlxState
 	{
 		super.create();
 		hero = new FlxSprite(100, 100, "assets/images/hero.png");
+		hero.velocity.x = 100;
 		add(hero);
 	}
 
 	override public function update(elapsed:Float):Void
 	{
-		super.update(elapsed);
+		
 	}
 }
