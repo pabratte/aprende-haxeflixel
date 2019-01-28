@@ -24,7 +24,7 @@ class PlayState extends FlxState
 
 		coin1 	= new FlxSprite(2*21, 6*21, AssetPaths.coin__png);
 		coin2 	= new FlxSprite(3*21, 5*21, AssetPaths.coin__png);
-		door 	= new FlxSprite();
+		door 	= new FlxSprite(3*21, 5*21, AssetPaths.door__png);
 		key 	= new FlxSprite();
 		block1 	= new FlxSprite();
 		block2 	= new FlxSprite();
