@@ -21,3 +21,4 @@ layout: default
 * [Desafío #1: Pintar la escena](https://github.com/pabab/curso-haxeflixel/raw/master/dist/desafios/pintar_escena.zip)
 * [Desafío #2: ¿Por qué no se mueve?](https://github.com/pabab/curso-haxeflixel/raw/master/dist/desafios/por_que_no_se_mueve.zip)
 * [Desafío #3: Sobrevive](https://github.com/pabab/curso-haxeflixel/raw/master/dist/desafios/survive.zip)
+* [Desafío #4: Movimiento de nave tipo asteroids](https://github.com/pabab/curso-haxeflixel/raw/master/dist/desafios/spaceship_movement_asteroids.zip)
