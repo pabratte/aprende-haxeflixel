@@ -1,0 +1,36 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Flash",
+			"type": "fdb",
+			"request": "launch",
+			"program": "${workspaceRoot}/export/flash/bin/animated_character.swf"
+		},
+		{
+			"name": "Flash (+rebuild)",
+			"type": "fdb",
+			"request": "launch",
+			"program": "${workspaceRoot}/export/flash/bin/animated_character.swf",
+			"preLaunchTask": "flash debug (build only)"
+		},
+		{
+			"name": "Windows",
+			"type": "hxcpp",
+			"request": "launch",
+			"program": "${workspaceRoot}/export/windows/cpp/bin/animated_character.exe"
+		},
+		{
+			"name": "Linux",
+			"type": "hxcpp",
+			"request": "launch",
+			"program": "${workspaceRoot}/export/linux64/cpp/bin/animated_character"
+		},
+		{
+			"name": "Mac",
+			"type": "hxcpp",
+			"request": "launch",
+			"program": "${workspaceRoot}/export/mac64/cpp/bin/animated_character.app/Contents/MacOS/animated_character"
+		}
+	]
+}

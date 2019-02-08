@@ -8,6 +8,8 @@ layout: default
 * [Instalación y configuración del entorno de desarrollo](https://github.com/pabab/curso-haxeflixel/raw/master/dist/slides/01-install.pdf)
 * [Estructura de un proyecto en Haxeflixel](https://github.com/pabab/curso-haxeflixel/raw/master/dist/slides/02-project.pdf)
 * [Dibujando sprites](https://github.com/pabab/curso-haxeflixel/raw/master/dist/slides/03-sprites.pdf)
+* [Moviendo un sprite](https://github.com/pabab/curso-haxeflixel/raw/master/dist/slides/04-movement.pdf)
+* [Spritesheets y animaciones](https://github.com/pabab/curso-haxeflixel/raw/master/dist/slides/05-animation.pdf)
 
 ## Ejemplos
 
@@ -15,10 +17,11 @@ layout: default
 * [Sprite simple](https://github.com/pabab/curso-haxeflixel/raw/master/dist/ejemplos/simple_sprite.zip)
 * [Movimiento linear](https://github.com/pabab/curso-haxeflixel/raw/master/dist/ejemplos/movement_linear.zip)
 * [Movimiento acelerado](https://github.com/pabab/curso-haxeflixel/raw/master/dist/ejemplos/movement_accel.zip)
-* [Personaje animado](https://github.com/pabab/curso-haxeflixel/raw/master/dist/ejemplos/anim_char.zip)
+* [Personaje animado](https://github.com/pabab/curso-haxeflixel/raw/master/dist/ejemplos/animated_character.zip)
 
 ## Desafíos
 
 * [Desafío #1: Pintar la escena](https://github.com/pabab/curso-haxeflixel/raw/master/dist/desafios/pintar_escena.zip)
 * [Desafío #2: Sobrevive](https://github.com/pabab/curso-haxeflixel/raw/master/dist/desafios/survive.zip)
 * [Desafío #3: Movimiento de nave tipo asteroids](https://github.com/pabab/curso-haxeflixel/raw/master/dist/desafios/spaceship_movement_asteroids.zip)
+* [Desafío #3: Movimiento de nave tipo asteroids](https://github.com/pabab/curso-haxeflixel/raw/master/dist/desafios/animated_character.zip)
