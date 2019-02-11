@@ -12,11 +12,11 @@ class Hero extends FlxSprite
         animation.add("idle", [136, 137], 3);
         animation.add("run", [138, 139, 140, 141, 142], 10);
         animation.play("idle");
-        
-        // adjust AABB
-        height = 16;
-        width = 12;
-        offset.set(2, 16);
+    
+        flaskCount = 0;
+
+        /// TODO:   ajustar el hitbox o AABB del personaje
+        ///         utilizando los atributos width, height y offset
     }
 
     public override function update(elapsed: Float){
@@ -46,5 +46,14 @@ class Hero extends FlxSprite
         }
     }
 
+    public function pickUpFlask(): Void{
+        flaskCount++;
+    }
+
+    public function getFlaskCount(): Int{
+        return flaskCount;
+    }
+
+    var flaskCount: Int;
     static inline var HERO_VEL: Float = 60;
 }

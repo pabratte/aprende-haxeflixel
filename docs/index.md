@@ -25,3 +25,4 @@ layout: default
 * [Desafío #2: Sobrevive](https://github.com/pabab/curso-haxeflixel/raw/master/dist/desafios/survive.zip)
 * [Desafío #3: Movimiento de nave tipo asteroids](https://github.com/pabab/curso-haxeflixel/raw/master/dist/desafios/spaceship_movement_asteroids.zip)
 * [Desafío #4: Movimiento de un personaje animado](https://github.com/pabab/curso-haxeflixel/raw/master/dist/desafios/animated_character.zip)
+* [Desafío #5: Arreglar el manejo de colisiones](https://github.com/pabab/curso-haxeflixel/raw/master/dist/desafios/collision_fix.zip)

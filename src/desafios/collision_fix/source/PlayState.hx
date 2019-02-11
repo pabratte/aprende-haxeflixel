@@ -26,34 +26,31 @@ class PlayState extends FlxState
 		add(wall_bottom);
 		add(pit1);
 		add(pit2);
-		add(hero);
 
-		//
-		walls = new FlxGroup();
-		walls.add(wall_left);
-		walls.add(wall_right);
-		walls.add(wall_top);
-		walls.add(wall_bottom);
-		walls.add(pit1);
-		walls.add(pit2);
-
-		wall_bottom.immovable = true;
-		wall_top.immovable = true;
-		wall_left.immovable = true;
-		wall_right.immovable = true;
-		pit1.immovable = true;
-		pit2.immovable = true;
-		//
+		add(new Exit(32, 192));
+				
+		/// TODO: crear y agregar los grupos que sean necesarios
 
         add(new Enemy(32, 32));
-
+        add(new Enemy(144, 32));
+        add(new Enemy(160, 192));
+        add(new Enemy(272, 192));
+        add(new Enemy(272, 32));
+		
+		add(new Flask(32, 112));
+		add(new Flask(144, 112, 1));
+		add(new Flask(272, 112, 2));
+		
+		add(hero);
 	}
 
 	override public function update(elapsed:Float):Void
 	{
 		super.update(elapsed);
-		FlxG.collide(walls, hero);
+		/// TODO: detectar las colisiones entre los elementos
 	}
+
+	/// TODO: crear las funciones callback necesarias para el manejo de colisiones
 
 	var wall_left: 		FlxSprite;
 	var wall_right: 	FlxSprite;
@@ -63,6 +60,4 @@ class PlayState extends FlxState
 	var pit2:			FlxSprite;
 	var door:			FlxSprite;
 	var hero: 			Hero;
-
-	var walls: FlxGroup;
 }
