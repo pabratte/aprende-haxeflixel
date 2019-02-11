@@ -2,7 +2,7 @@ package;
 
 import flixel.FlxState;
 import flixel.FlxSprite;
-import flixel.group.FlxGroup;	//
+import flixel.group.FlxGroup;
 import flixel.FlxG;
 
 class PlayState extends FlxState
