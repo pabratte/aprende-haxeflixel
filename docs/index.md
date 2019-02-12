@@ -10,6 +10,8 @@ layout: default
 * [Dibujando sprites](https://github.com/pabab/curso-haxeflixel/raw/master/dist/slides/03-sprites.pdf)
 * [Moviendo un sprite](https://github.com/pabab/curso-haxeflixel/raw/master/dist/slides/04-movement.pdf)
 * [Spritesheets y animaciones](https://github.com/pabab/curso-haxeflixel/raw/master/dist/slides/05-spritesheets_animations.pdf)
+* [Creando nuestras propias entidades](https://github.com/pabab/curso-haxeflixel/raw/master/dist/slides/06-entities.pdf)
+* [Detección y manejo de colisiones](https://github.com/pabab/curso-haxeflixel/raw/master/dist/slides/07-collisions.pdf)
 
 ## Ejemplos
 

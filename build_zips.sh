@@ -1,5 +1,6 @@
 #!/bin/sh
-rm -rf dist
+rm -rf dist/ejemplos
+rm -rf dist/desafios
 mkdir -p dist/ejemplos
 mkdir -p dist/desafios
 cd src
