@@ -12,6 +12,7 @@ layout: default
 * [Spritesheets y animaciones](https://github.com/pabab/curso-haxeflixel/raw/master/dist/slides/05-spritesheets_animations.pdf)
 * [Creando nuestras propias entidades](https://github.com/pabab/curso-haxeflixel/raw/master/dist/slides/06-entities.pdf)
 * [Detección y manejo de colisiones](https://github.com/pabab/curso-haxeflixel/raw/master/dist/slides/07-collisions.pdf)
+* [Detección y manejo de colisiones](https://github.com/pabab/curso-haxeflixel/raw/master/dist/slides/08-tilemaps.pdf)
 
 ## Ejemplos
 
@@ -22,6 +23,8 @@ layout: default
 * [Personaje animado](https://github.com/pabab/curso-haxeflixel/raw/master/dist/ejemplos/animated_character.zip)
 * [Manejo de colisiones 1](https://github.com/pabab/curso-haxeflixel/raw/master/dist/ejemplos/collisions.zip)
 * [Manejo de colisiones 2](https://github.com/pabab/curso-haxeflixel/raw/master/dist/ejemplos/collisions_2.zip)
+* [Tilemaps](https://github.com/pabab/curso-haxeflixel/raw/master/dist/ejemplos/tilemap_simple.zip)
+* [Tilemaps con Tiled](https://github.com/pabab/curso-haxeflixel/raw/master/dist/ejemplos/tilemap_tiled.zip)
 
 ## Desafíos
 
@@ -30,3 +33,6 @@ layout: default
 * [Desafío #3: Movimiento de nave tipo asteroids](https://github.com/pabab/curso-haxeflixel/raw/master/dist/desafios/spaceship_movement_asteroids.zip)
 * [Desafío #4: Movimiento de un personaje animado](https://github.com/pabab/curso-haxeflixel/raw/master/dist/desafios/animated_character.zip)
 * [Desafío #5: Arreglar el manejo de colisiones](https://github.com/pabab/curso-haxeflixel/raw/master/dist/desafios/collision_fix.zip)
+
+## Trabajos Prácticos
+* [Trabajo Práctico #1](https://github.com/pabab/curso-haxeflixel/raw/master/dist/tp/tp_escape_prision.pdf)
