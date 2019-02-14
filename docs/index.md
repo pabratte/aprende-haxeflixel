@@ -12,7 +12,7 @@ layout: default
 * [Spritesheets y animaciones](https://github.com/pabab/curso-haxeflixel/raw/master/dist/slides/05-spritesheets_animations.pdf)
 * [Creando nuestras propias entidades](https://github.com/pabab/curso-haxeflixel/raw/master/dist/slides/06-entities.pdf)
 * [Detección y manejo de colisiones](https://github.com/pabab/curso-haxeflixel/raw/master/dist/slides/07-collisions.pdf)
-* [Detección y manejo de colisiones](https://github.com/pabab/curso-haxeflixel/raw/master/dist/slides/08-tilemaps.pdf)
+* [Tilemaps](https://github.com/pabab/curso-haxeflixel/raw/master/dist/slides/08-tilemaps.pdf)
 
 ## Ejemplos
 
