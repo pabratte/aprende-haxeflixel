@@ -25,6 +25,7 @@ layout: default
 * [Manejo de colisiones 2](https://github.com/pabab/curso-haxeflixel/raw/master/dist/ejemplos/collisions_2.zip)
 * [Tilemaps](https://github.com/pabab/curso-haxeflixel/raw/master/dist/ejemplos/tilemap_simple.zip)
 * [Tilemaps con Tiled](https://github.com/pabab/curso-haxeflixel/raw/master/dist/ejemplos/tilemap_tiled.zip)
+* [Juego de plataformas](https://github.com/pabab/curso-haxeflixel/raw/master/dist/ejemplos/platformer.zip)
 
 ## Desafíos
 
