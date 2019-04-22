@@ -6,4 +6,7 @@ Utilizando las imágenes que acompañan al ejemplo, agregar los sprites necesari
 
 A modo de ayuda, el ejemplo contiene algunos sprites ya agregados.
 
-También puede utilizarse la imagen ![](help.png) a modo de guía para ubicar los sprites. El tamaño de cada celda de la grilla es de 21 px. 
+También puede utilizarse la siguiente imagen a modo de guía para ubicar los sprites. El tamaño de cada celda de la grilla es de 21 px.
+
+![](help.png) 
+  
