@@ -2,6 +2,14 @@
 layout: default
 ---
 
+
+## Apuntes
+
+* [Clase 01 - ¿Qué es Haxeflixel?](https://docs.google.com/document/d/1VqJWG_mGPQ9osfN1ldTDuiFs1viX0aSfi91MlS7rrh0/export?format=pdf)
+* [Clase 02 - Clase 02: Instalación y configuración del entorno de desarrollo](https://docs.google.com/document/d/16My7i5fRuLn5ZpFU9OhNoHniH98tnlEbhXscADwBL9o/export?format=pdf)
+* [Clase 03 - Estructura de un proyecto en Haxeflixel](https://docs.google.com/document/d/1hmghkqnTvtkZ8Ftn0vBAApIP2ud_ReMVqTDmMMvOUhI/export?format=pdf)
+* [Clase 04 - Dibujando sprites](https://docs.google.com/document/d/1m2yo5uhSOqVJZ86L4A6dN3YZ-YWi-vhlVx93AwqB-es/export?format=pdf)
+
 ## Slides
 
 * [Introducción](https://github.com/pabab/curso-haxeflixel/raw/master/dist/slides/00-intro.pdf)
