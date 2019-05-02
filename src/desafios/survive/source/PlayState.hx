@@ -52,6 +52,7 @@ class PlayState extends FlxState
 			// si el héroe choca con el fantasma => game over
 			if(FlxG.overlap(hero, ghost)){
 				game_over = true;
+				hero.velocity.set(0, 0);
 				ghost.velocity.set(0, 0);
 			}
 
