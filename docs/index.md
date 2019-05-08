@@ -9,6 +9,9 @@ layout: default
 * [Clase 02 - Instalación y configuración del entorno de desarrollo](https://docs.google.com/document/d/16My7i5fRuLn5ZpFU9OhNoHniH98tnlEbhXscADwBL9o/export?format=pdf)
 * [Clase 03 - Estructura de un proyecto en Haxeflixel](https://docs.google.com/document/d/1hmghkqnTvtkZ8Ftn0vBAApIP2ud_ReMVqTDmMMvOUhI/export?format=pdf)
 * [Clase 04 - Dibujando sprites](https://docs.google.com/document/d/1m2yo5uhSOqVJZ86L4A6dN3YZ-YWi-vhlVx93AwqB-es/export?format=pdf)
+* [Clase 05 - Moviendo un sprite](https://docs.google.com/document/d/1ACRWig4owhulYOsbciCUm-HkcW0zHOP4Wq1w0mRXT3s/export?format=pdf)
+* [Clase 06 - Animaciones con sprite sheets](https://docs.google.com/document/d/14okrFC7CYz0GiTzJZ0O6Th06ApcFa9rpKHeXAAYoF2U/export?format=pdf)
+
 
 ## Slides
 
