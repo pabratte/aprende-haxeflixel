@@ -32,6 +32,7 @@ layout: default
 * [Movimiento linear](https://github.com/pabab/curso-haxeflixel/raw/master/dist/ejemplos/movement_linear.zip)
 * [Movimiento acelerado](https://github.com/pabab/curso-haxeflixel/raw/master/dist/ejemplos/movement_accel.zip)
 * [Personaje animado](https://github.com/pabab/curso-haxeflixel/raw/master/dist/ejemplos/animated_character.zip)
+* [Actor nave espacial](https://github.com/pabab/curso-haxeflixel/raw/master/dist/ejemplos/entity.zip)
 * [Manejo de colisiones 1](https://github.com/pabab/curso-haxeflixel/raw/master/dist/ejemplos/collisions.zip)
 * [Manejo de colisiones 2](https://github.com/pabab/curso-haxeflixel/raw/master/dist/ejemplos/collisions_2.zip)
 * [Tilemaps](https://github.com/pabab/curso-haxeflixel/raw/master/dist/ejemplos/tilemap_simple.zip)
