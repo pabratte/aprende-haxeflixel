@@ -5,32 +5,32 @@
 			"name": "Flash",
 			"type": "fdb",
 			"request": "launch",
-			"program": "${workspaceRoot}/export/flash/bin/tiled_items.swf"
+			"program": "${workspaceRoot}/export/flash/bin/tilemap_simple.swf"
 		},
 		{
 			"name": "Flash (+rebuild)",
 			"type": "fdb",
 			"request": "launch",
-			"program": "${workspaceRoot}/export/flash/bin/tiled_items.swf",
+			"program": "${workspaceRoot}/export/flash/bin/tilemap_simple.swf",
 			"preLaunchTask": "flash debug (build only)"
 		},
 		{
 			"name": "Windows",
 			"type": "hxcpp",
 			"request": "launch",
-			"program": "${workspaceRoot}/export/windows/cpp/bin/tiled_items.exe"
+			"program": "${workspaceRoot}/export/windows/cpp/bin/tilemap_simple.exe"
 		},
 		{
 			"name": "Linux",
 			"type": "hxcpp",
 			"request": "launch",
-			"program": "${workspaceRoot}/export/linux64/cpp/bin/tiled_items"
+			"program": "${workspaceRoot}/export/linux64/cpp/bin/tilemap_simple"
 		},
 		{
 			"name": "Mac",
 			"type": "hxcpp",
 			"request": "launch",
-			"program": "${workspaceRoot}/export/mac64/cpp/bin/tiled_items.app/Contents/MacOS/tiled_items"
+			"program": "${workspaceRoot}/export/mac64/cpp/bin/tilemap_simple.app/Contents/MacOS/tilemap_simple"
 		}
 	]
 }
