@@ -5,10 +5,11 @@ import flixel.FlxObject;
 import flixel.FlxG;
 
 class Character extends FlxSprite
-{
-	var left: Bool = false;
-	var wallDrag: Bool = false;
-	
+{	
+	public static inline var JUMP_VEL = 300;
+	public static inline var MOV_VEL = 150;
+	public static inline var GRAVITY = 700;
+
 	public function new(X: Float, Y: Float)
 	{
 		super(X, Y);
@@ -18,7 +19,7 @@ class Character extends FlxSprite
 		animation.add("jump", [8], 10, true);
 		animation.add("fall", [9], 10, true);
 		animation.play("idle");
-		acceleration.y = 300;
+		acceleration.y = GRAVITY;
 
 		width = 8; height = 14;
 		offset.x = 4; offset.y = 2;
@@ -30,58 +31,24 @@ class Character extends FlxSprite
 	{
 		
 		super.update(elapsed);
-
-		if(left){
-			velocity.x = -100;
-		}else{
-			velocity.x = 100;
-		}
 		
 
 		if(FlxG.keys.justPressed.W && (wasTouching & FlxObject.FLOOR != 0))
 		{
 			y--;
-			velocity.y = -150;
+			velocity.y = -JUMP_VEL;
 		}
-
 		
-
-		trace((wasTouching & FlxObject.RIGHT) != 0);
-		trace(velocity.y<0);
-		trace("---");
-		if((wasTouching & FlxObject.RIGHT) != 0 && velocity.y>0 || (wasTouching & FlxObject.LEFT) != 0 && velocity.y>0){
-			wallDrag = true;
-		}else{
-			wallDrag = false;
-		}
-
-		if(wallDrag){
-			velocity.y = 50;
-		}
-
-		if(FlxG.keys.justPressed.W && wallDrag)
-		{
-			if(velocity.x>0){
-				left = true;
-				x++;
-			}else{
-				left = false;
-				x--;
-			}
-			velocity.y = -150;
-			wallDrag = false;
-		}
-		/*
 		if(wasTouching & FlxObject.RIGHT != 0){
 			x--;
-			velocity.x = -100;
+			velocity.x = -MOV_VEL;
 		}
 
 		if(wasTouching & FlxObject.LEFT != 0){
 			x++;
-			velocity.x = 100;
+			velocity.x = MOV_VEL;
 		}
-		*/
+		
 
 		
 
@@ -96,6 +63,13 @@ class Character extends FlxSprite
 				animation.play("jump");
 			}
 		}
-		flipX = left;
+		flipX = velocity.x<0;
+	}
+
+	public function animateDeath(){
+		allowCollisions = FlxObject.NONE;
+		velocity.y = -JUMP_VEL;
+		velocity.x = velocity.x/5;
+		angularVelocity = 200;
 	}
 }
